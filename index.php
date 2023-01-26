@@ -1,12 +1,13 @@
-<?php 
-  include 'inc/headers.inc.php'; 
+<?php
+  include 'inc/cookie.inc.php';
+  include 'inc/headers.inc.php';
 ?>
 <!DOCTYPE html>
 <html>
 
 <head>
   <title>
-    <?=$title?>
+    <?= $title ?>
   </title>
   <meta charset="utf-8" />
   <link rel="stylesheet" type="text/css" href="inc/style.css" />
@@ -23,10 +24,18 @@
 
   <div id="content">
     <!-- Заголовок -->
-    <h1><?= $header?></h1>
+      <?php
+      if ($visitCounter == 1) {
+          echo 'Спасибо, что зашли на огонек';
+      } else {
+          echo 'Вы зашли к нам ' . $visitCounter . " раз." . '<br>';
+          echo "Последнее посещение было: " . $_COOKIE['lastVisit'];
+      };
+      ?>
+    <h1><?= $header ?></h1>
     <!-- Заголовок -->
     <!-- Область основного контента -->
-    <?php 
+    <?php
       include 'inc/routing.inc.php'; 
     ?>
     <!-- Область основного контента -->

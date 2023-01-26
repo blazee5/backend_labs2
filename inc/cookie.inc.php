@@ -3,10 +3,7 @@ $visitCounter = 0;
 $visitCounter = $_COOKIE['visitCounter'] ?? 0;
 $visitCounter++;
 $lastVisit = "";
-$date = date_create();
+$date = date("d:m:Y");
 setcookie('visitCounter', $visitCounter);
-setcookie('lastVisit', date_timestamp_get($date));
-
-echo $visitCounter . "<br>";
-echo $_COOKIE['lastVisit'];
+setcookie('lastVisit', $date);
 ?>
