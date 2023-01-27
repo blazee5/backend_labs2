@@ -1,0 +1,12 @@
+27:01:2023 07:41:39|/backend_labs2/index.php?id=log|http://localhost/backend_labs2/index.php?id=log
+27:01:2023 07:41:40|/backend_labs2/index.php?id=log|http://localhost/backend_labs2/index.php?id=log
+27:01:2023 07:43:53|/backend_labs2/index.php?id=log|http://localhost/backend_labs2/index.php?id=log
+27:01:2023 07:43:54|/backend_labs2/index.php?id=log|http://localhost/backend_labs2/index.php?id=log
+27:01:2023 07:43:55|/backend_labs2/index.php|http://localhost/backend_labs2/index.php?id=log
+27:01:2023 07:43:55|/backend_labs2/index.php?id=contact|http://localhost/backend_labs2/index.php
+27:01:2023 07:43:56|/backend_labs2/index.php?id=about|http://localhost/backend_labs2/index.php?id=contact
+27:01:2023 07:43:56|/backend_labs2/index.php?id=info|http://localhost/backend_labs2/index.php?id=about
+27:01:2023 07:43:57|/backend_labs2/index.php?id=gbook|http://localhost/backend_labs2/index.php?id=info
+27:01:2023 07:43:57|/backend_labs2/index.php?id=log|http://localhost/backend_labs2/index.php?id=gbook
+27:01:2023 07:44:04|/backend_labs2/index.php?id=gbook|http://localhost/backend_labs2/index.php?id=log
+27:01:2023 07:44:07|/backend_labs2/index.php?id=log|http://localhost/backend_labs2/index.php?id=gbook
