@@ -8,6 +8,9 @@ class User {
         $this->login = $login;
         $this->password = $password;
     }
+    function __destruct() {
+        echo "Пользователь $this->login удален"."<br>";
+    }
     function showInfo() {
         echo "Имя: $this->name"."<br>";
         echo "Логин: $this->login"."<br>";
