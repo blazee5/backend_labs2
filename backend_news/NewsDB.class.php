@@ -7,7 +7,9 @@ class NewsDB implements INewsDB {
     public $description;
     public $source;
     function saveNews($title, $category, $description, $source) {
-
+        $dt = time();
+        $sql = "INSERT INTO msgs($title, $category, $description, $source, $dt)";
+        return $this->_db->exec($sql);
     }
 
     function getNews() {
